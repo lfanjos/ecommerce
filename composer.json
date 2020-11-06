@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "":"vendor\\lfanjos\\php-classes\\src"
+            "lfanjos\\":"vendor\\lfanjos\\php-classes\\src"
         }
     }
 }
