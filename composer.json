@@ -1,0 +1,20 @@
+{
+    "name": "lfanjos/ecommerce",
+    "description": "ecommerce para venda de roupas",
+    "authors": [
+        {
+            "name": "Lucas",
+            "email": "lfanjosus@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "~6.1",
+        "slim/slim":"2.0",
+        "rain/raintpl":">=3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "":"vendor\\lfanjos\\php-classes\\src"
+        }
+    }
+}
